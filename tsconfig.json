@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true,
+        "preserveConstEnums": true,
+        "lib": ["es6", "es2015", "dom"],
+        "mapRoot": "",
+        "rootDir": "./src",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./demo/public/javascript",
+        "sourceMap": true,
+        "target": "es5",
+        "importHelpers": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "demo"
+    ]
+}

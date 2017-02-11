@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Dakota\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.9
+3 info using node@v7.2.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle demo@0.0.0~prestart: demo@0.0.0
+6 silly lifecycle demo@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle demo@0.0.0~start: demo@0.0.0
+8 verbose lifecycle demo@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle demo@0.0.0~start: PATH: C:\Users\Dakota\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\Dakota\Development\0-personal\typescript-modules\sb-audio-graph\demo\node_modules\.bin;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\P
+9 verbose lifecycle rogram Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\Syste
+9 verbose lifecycle m32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Int
+9 verbose lifecycle el(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Manageme
+9 verbose lifecycle nt Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engin
+9 verbose lifecycle e Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Compon
+9 verbose lifecycle ents\IPT;C:\Program Files\Acer\Remote Files\;C:\Program Files (x86)\Windows Kit
+9 verbose lifecycle s\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\To
+9 verbose lifecycle ols\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\syst
+9 verbose lifecycle em32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\
+9 verbose lifecycle v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Pr
+9 verbose lifecycle ogram Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\OpenSSH;C:\cy
+9 verbose lifecycle gwin64;C:\Program Files (x86)\Heroku\bin;C:\Prog
+9 verbose lifecycle ram Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Ruby200-x64\bin;C:\Us
+9 verbose lifecycle ers\Dakota\AppData\Roaming\npm;C:\Users\Dakota\.dnx\runtimes\dnx-clr-win-x86.1.
+9 verbose lifecycle 0.0-rc1-update1\bin;C:\Users\Dakota\.dnx\bin;C:\Users\Dakota\AppData\Local\Prog
+9 verbose lifecycle rams\Python\Python35-32\Scripts\;C:\Users\Dakota\AppData\Local\Programs\Python\
+9 verbose lifecycle Python35-32\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Git\
+9 verbose lifecycle bin;C:\Program Files (x86)\Mozilla Firefox;C:\Program Files (x86);C:\Program Fi
+9 verbose lifecycle les (x86)\Nmap;C:\Program Files (x86)\PSTools;C:\Program Files\MongoDB\Server\3
+9 verbose lifecycle .2\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\nodejs\;C:\Ruby200-x64\bin;C:\Users\Dakota\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin;C:\Users\Dakota\.dnx\bin;C:\Users\Dakota\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\Dakota\AppData\Local\Programs\Python\Python35-32\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Git\bin;C:\Program Files (x86)\Firefox Developer Edition\firefox.exe;C:\Program Files (x86);C:\Program Files (x86)\Nmap;C:\Program Files (x86)\Sysinternals;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\Dakota\cmder\vendor\FFmpeg-win64-static\bin\;C:\Users\Dakota\AppData\Roaming\npm
+10 verbose lifecycle demo@0.0.0~start: CWD: C:\Users\Dakota\Development\0-personal\typescript-modules\sb-audio-graph\demo
+11 silly lifecycle demo@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (C:\Users\Dakota\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\Dakota\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\Dakota\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd C:\Users\Dakota\Development\0-personal\typescript-modules\sb-audio-graph\demo
+14 error Windows_NT 10.0.14393
+15 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\Dakota\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.2.0
+17 error npm  v3.10.9
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
